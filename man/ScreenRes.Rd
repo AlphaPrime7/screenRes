@@ -19,12 +19,13 @@ Screen Resolution
 }
 \description{
 Screen Resolution Dos and Unix
+
+Screen Resolution Windows
 }
-\note{
-Only for Ubuntu. IDGARA about any other OS.
-Ubuntu combines the width for multiple platforms into 1
-Screen number applicable to windows.
+\examples{
+\dontrun{screen_res_dos_unix(...)}
+\dontrun{screen_res_win(...)}
 }
 \seealso{
-[get_screen_resolution()]
+[screen_res_dos_unix()]
 }

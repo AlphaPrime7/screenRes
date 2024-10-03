@@ -1,8 +1,9 @@
 #' Screen Resolution Dos and Unix
 #' @param screen_number Number of Screens
-#' @rdname screen
 #' @return Screen Resolution
 #' @export
+#' @examples \dontrun{screen_res_dos_unix(...)}
+#' @rdname ScreenRes
 screen_res_dos_unix = function(screen_number = NULL){
   if(.Platform$OS.type == 'unix'){
 
@@ -76,10 +77,12 @@ screen_res_dos_unix = function(screen_number = NULL){
 
 }
 
-#' @rdname screen
+#' Screen Resolution Windows
 #' @return Screen Resolution
 #' @export
-#' @seealso [get_screen_resolution()]
+#' @examples \dontrun{screen_res_win(...)}
+#' @seealso [screen_res_dos_unix()]
+#' @rdname ScreenRes
 screen_res_win = function(){
   if(.Platform$OS.type == 'unix'){
 
