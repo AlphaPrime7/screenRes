@@ -1,0 +1,56 @@
+---
+author: Tingwei Adeck
+date: '`r format(Sys.time(), "%B %d, %Y")`'
+output: github_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# screenRes
+
+The goal of screenRes is to get the screen resolution of screens.
+
+## Installation
+
+You can install the development version of screenRes from [GitHub](https://github.com/) with:
+
+``` r
+#install.packages("devtools")
+devtools::install_github("AlphaPrime7/screenRes")
+```
+
+## Example
+
+This is a basic example of screenRes:
+
+```{r screenRes}
+library(screenRes)
+screen_res_dos_unix(screen_number = 3) / 2
+screen_res_win()
+#The issue with unix is returning summed screen resolutions when multiple screens are involved.
+```
+
+Alternative:
+```{r alt}
+library(rpanel)
+rpanel::rp.screenresolution()
+rpanel::rp.screenresolution()$width/2
+
+#rJava is good alternative as well-Issues with java config prohibit its demonstration.
+```
+
+
+## Conclusion
+
+A one document package for getting the screen resolution. Seems to provide better results than `rpanel` but very similar.
