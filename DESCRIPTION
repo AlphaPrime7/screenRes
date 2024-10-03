@@ -3,7 +3,7 @@ Type: Package
 Title: Get Screen Resolution
 Version: 1.0.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <awesome.tingwei@outlook.com>
 Description: Get the screen resolution for help in placing graphical components.
 License: MIT + file LICENSE
 Encoding: UTF-8
