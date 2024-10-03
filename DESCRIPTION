@@ -2,7 +2,7 @@ Package: screenRes
 Type: Package
 Title: Get Screen Resolution
 Version: 1.0.0
-Author: Who wrote it
+Author: Tingwei Adeck
 Maintainer: The package maintainer <awesome.tingwei@outlook.com>
 Description: Get the screen resolution for help in placing graphical components.
 License: MIT + file LICENSE
