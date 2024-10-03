@@ -1,7 +1,7 @@
 Package: screenRes
 Type: Package
 Title: Get Screen Resolution
-Version: 0.1.0
+Version: 1.0.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Get the screen resolution for help in placing graphical components.
