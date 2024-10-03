@@ -23,13 +23,12 @@ This is a basic example of screenRes:
 
 ``` r
 library(screenRes)
-screen_res_dos_unix(screen_number = 3) / 2
+screen_res_dos_unix(screen_number = 3) / 2 #The issue with unix is returning summed screen resolutions when multiple screens are involved.
 #> The screen resolution is 7680x4320 on the  unix platform
 #> [1] 3840 2160
 screen_res_win()
 #> Warning in screen_res_win(): The function is not designed for the unix platform
 #> NULL
-#The issue with unix is returning summed screen resolutions when multiple screens are involved.
 ```
 
 Alternative:

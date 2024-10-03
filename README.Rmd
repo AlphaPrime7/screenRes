@@ -36,9 +36,8 @@ This is a basic example of screenRes:
 
 ```{r screenRes}
 library(screenRes)
-screen_res_dos_unix(screen_number = 3) / 2
+screen_res_dos_unix(screen_number = 3) / 2 #The issue with unix is returning summed screen resolutions when multiple screens are involved.
 screen_res_win()
-#The issue with unix is returning summed screen resolutions when multiple screens are involved.
 ```
 
 Alternative:
