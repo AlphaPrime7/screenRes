@@ -5,7 +5,25 @@ Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Get the screen resolution for help in placing graphical components.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.2.1),
+    learnr,
+    rmarkdown
+Config/testthat/edition: 3
+Depends:
+    R (>= 4.3.0)
+Imports: 
+    ggplot2 (>= 3.5.0),
+    dplyr, 
+    forcats,
+    plotly,
+    rlang (>= 1.1.3),
+    scales,
+    stats,
+    ggrepel
+URL: https://github.com/AlphaPrime7/screenRes
+BugReports: https://github.com/AlphaPrime7/screenRes/issues
