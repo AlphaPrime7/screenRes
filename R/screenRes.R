@@ -83,7 +83,7 @@ screen_res_dos_unix = function(screen_number = NULL){
 #' @examples \dontrun{screen_res_win(...)}
 #' @seealso [screen_res_dos_unix()]
 #' @rdname ScreenRes
-screen_res_win = function(){
+screen_res_win = function(numscreens=NULL){
   if(.Platform$OS.type == 'unix'){
 
     #-----(system resolution)
