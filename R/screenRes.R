@@ -103,7 +103,7 @@ screen_res_win = function(){
     current_resolution <- current_resolution[!is.na(current_resolution)]
     current_resolution = as.vector(current_resolution)
 
-    message(sprintf('The screen resolution is %s on the %s platform', current_resolution, .Platform$OS.type))
+    message(sprintf('The screen resolution is %d x %d on the %s platform', as.numeric(current_resolution[1]), as.numeric(current_resolution[2]), .Platform$OS.type))
     return(current_resolution)
 
   }
