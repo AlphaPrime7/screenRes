@@ -5,7 +5,6 @@ Version: 1.0.1
 Authors@R: 
     c(person(given = "Tingwei", family = "Adeck", role = c("aut", "cre", "cph"), email = "awesome.tingwei@outlook.com", comment = c(ORCID = "0009-0009-7450-8863")), 
     person(given = "Tesla", family = "Adeck", role="cph"), person(given = "Amina", family = "Adeck", role="cph") )
-Maintainer: 'Tingwei Adeck <awesome.tingwei@outlook.com>'
 Description: Get the screen resolution for help in placing graphical components.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -14,7 +13,8 @@ RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.2.1),
     learnr,
-    rmarkdown
+    rmarkdown,
+    dplyr
 Config/testthat/edition: 3
 Depends:
     R (>= 4.3.0)
