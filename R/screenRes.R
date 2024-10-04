@@ -83,7 +83,7 @@ screen_res_dos_unix = function(screen_number = NULL){
 #' @examples \dontrun{screen_res_win(...)}
 #' @seealso [screen_res_dos_unix()]
 #' @rdname ScreenRes
-screen_res_win = function(numscreens=NULL){
+screen_res_win = function(){
   if(.Platform$OS.type == 'unix'){
 
     #-----(system resolution)
@@ -103,7 +103,7 @@ screen_res_win = function(numscreens=NULL){
     current_resolution <- current_resolution[!is.na(current_resolution)]
     current_resolution = as.vector(current_resolution)
 
-    message(sprintf('The screen resolution is c(%d,%d) on the %s platform', numscreens, .Platform$OS.type))
+    message(sprintf('The screen resolution is c(%d,%d) on the %s platform', current_resolution, .Platform$OS.type))
     return(current_resolution)
 
   }
