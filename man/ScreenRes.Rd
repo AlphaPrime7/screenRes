@@ -23,8 +23,11 @@ Screen Resolution Dos and Unix
 Screen Resolution Windows
 }
 \examples{
-\donttest{screen_res_dos_unix()}
-\donttest{screen_res_win()}
+\donttest{
+screen_res_dos_unix()}
+\dontrun{
+#if you run require(dplyr)
+screen_res_win()}
 }
 \seealso{
 [screen_res_dos_unix()]
