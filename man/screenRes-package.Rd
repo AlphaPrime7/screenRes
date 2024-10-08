@@ -6,7 +6,7 @@
 \alias{screenRes-package}
 \title{screenRes: Get Screen Resolution}
 \description{
-Get the screen resolution for help in placing graphical components.
+Get the screen resolution for help in placing graphical components. The Package provides two system call functions that can facilitate obtaining the screen resolution for a screen or screens under scrutiny. The package is complementary to packages like tcltk and other packages that place GUI components.
 }
 \seealso{
 Useful links:

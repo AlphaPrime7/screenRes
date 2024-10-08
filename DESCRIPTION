@@ -5,7 +5,7 @@ Version: 1.0.2
 Authors@R: 
     c(person(given = "Tingwei", family = "Adeck", role = c("aut", "cre", "cph"), email = "awesome.tingwei@outlook.com", comment = c(ORCID = "0009-0009-7450-8863")), 
     person(given = "Tesla", family = "Adeck", role="cph"), person(given = "Amina", family = "Adeck", role="cph") )
-Description: Get the screen resolution for help in placing graphical components.
+Description: Get the screen resolution for help in placing graphical components. The Package provides two system call functions that can facilitate obtaining the screen resolution for a screen or screens under scrutiny. The package is complementary to packages like tcltk and other packages that place GUI components.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
